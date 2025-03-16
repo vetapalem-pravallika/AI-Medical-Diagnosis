@@ -21,22 +21,26 @@ This project aims to develop an AI-powered medical diagnosis system that enhance
 ✅ Supports real-time input for diagnosis
 
 ⚙️ Installation
-Step 1: Clone the Repository
-bash
-Copy
-Edit
-git clone https://github.com/your-username/AI-Medical-Diagnosis.git
-cd AI-Medical-Diagnosis
-Step 2: Install Dependencies
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Step 3: Run the Application
-bash
-Copy
-Edit
+Step 1: Install Python
+Ensure Python (3.x) is installed on your system.
+👉 Download from Python Official Site
+
+After installation, verify it by running the following command in Command Prompt:
+python --version
+🔹 Step 2: Install Required Libraries
+Open Command Prompt and install the necessary dependencies using:
+pip install numpy pandas scikit-learn streamlit pickle5
+🔹 Step 3: Running the Code in Jupyter Notebook
+1️⃣ Install Jupyter Notebook if not installed:
+  pip install notebook
+2️⃣ Start Jupyter Notebook:
+jupyter notebook
+3️⃣ Open the notebook (model.ipynb) and run the cells step by step.
+🔹 Step 4: Running the Code in Command Prompt (Streamlit Web App)
+If your project file is model.py, execute it using:
 streamlit run model.py
+This will open a browser window with the AI-powered medical diagnosis interface.
+
 🚀 Usage
 Open the Streamlit web app.
 Select a disease to diagnose.
